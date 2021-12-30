@@ -1,0 +1,82 @@
+.header {
+  width: 100%;
+  background: var(--color-navbar);
+  height: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.header__logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__logo h2 {
+  cursor: pointer;
+  margin-left: 0.5rem;
+}
+
+.header__search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__search-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid white;
+  padding: 0.5rem 1rem;
+  color: white;
+  border-radius: 1em;
+  outline: none;
+  margin-left: 1rem;
+}
+
+.header__search-bar :focus {
+  outline: none;
+}
+
+.header__search-bar input {
+  border: none;
+  background: none;
+  margin-left: 0.5em;
+  color: white;
+}
+
+.header__search-bar input::-webkit-input-placeholder {
+  color: white;
+}
+
+.header__search-bar input:-ms-input-placeholder {
+  color: white;
+}
+
+.header__search-bar input::-ms-input-placeholder {
+  color: white;
+}
+
+.header__search-bar input::placeholder {
+  color: white;
+}
+/*# sourceMappingURL=styles.css.map */
