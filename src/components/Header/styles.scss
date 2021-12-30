@@ -49,3 +49,21 @@
     }
   }
 }
+
+@media screen and (max-width: 650px) {
+  .header__logo h2 {
+    font-size: 12px;
+  }
+
+  .header__search h2 {
+    display: none;
+  }
+
+  .header__search-bar {
+    flex: 1;
+    font-size: 12px;
+    input::placeholder {
+      font-size: 10px;
+    }
+  }
+}
