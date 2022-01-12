@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { List, Header, Map, PlaceDetails } from "./components";
 import { CssBaseline, Grid } from "@material-ui/core";
 import { getPlacesData, getWeatherData } from "./api";
-import "./app.css";
+import "./App.css";
 
 const App = () => {
   const [places, setPlaces] = useState([]);
